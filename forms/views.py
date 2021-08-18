@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def all_forms(request):
+    return render(request, 'forms/all_forms.html', {})
